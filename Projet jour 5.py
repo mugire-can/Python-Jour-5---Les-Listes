@@ -60,14 +60,14 @@ print(count)
 
 ## job 8
 
-L = [8, 24, 27, 48, 2,16, 9, 7, 84, 91]
-sum = 0
+L = [8, 24, 27, 48, 2, 16, 9, 7, 84, 91]
+total = 0
 
 for x in L:
     if x % 2 == 0:
-        sum += x
+        total += x
 
-print(sum)
+print(total)
 
 ## job 9
 
@@ -80,13 +80,13 @@ print("la min valeur est", min(L))
 ## job 10
 
 
-L = [8, 24, 27, 48, 2,16, 9, 102, 7, 84, 91]
-sum = 0
+L = [8, 24, 27, 48, 2, 16, 9, 102, 7, 84, 91]
+total = 0
 
 for x in L:
     if x <= 91 and x >= 25:
-        sum += x
-print(sum)
+        total += x
+print(total)
 
 ## job 11
 
@@ -103,7 +103,7 @@ print(L)
 L = [10, 20, 30, 20, 10, 50, 60, 40, 80, 50, 40]
 NL = []
 
-for x in  L:
+for x in L:
     if x not in NL:
-        L.append(x)
+        NL.append(x)
 print(NL)
